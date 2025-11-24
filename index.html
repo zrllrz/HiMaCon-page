@@ -442,51 +442,6 @@
         and then used to regularize ACT policy training on the same task.
       </h2>
 
-      <div class="table-container" style="width: 60%; margin: 1.5rem auto 0 auto;">
-        <table class="table is-bordered is-striped" style="margin: 0 auto; table-layout: fixed; width: 100%;">
-          <colgroup>
-            <col style="width: 14.28%;">
-            <col style="width: 14.28%;">
-            <col style="width: 14.28%;">
-            <col style="width: 14.28%;">
-            <col style="width: 14.28%;">
-            <col style="width: 14.28%;">
-            <col style="width: 14.28%;">
-          </colgroup>
-          <thead>
-            <tr>
-              <th></th>
-              <th class="has-text-centered">Unsee Placements</th>
-              <th class="has-text-centered">Unseen Color Combination</th>
-              <th class="has-text-centered">Unseen Objects</th>
-              <th class="has-text-centered">Obstacle blocking the cup</th>
-              <th class="has-text-centered">Barrier blocking path</th>
-              <th class="has-text-centered">Dual cup grasping</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="has-text-centered">Without Manipulation Concept</td>
-              <td class="has-text-centered">53.3</td>
-              <td class="has-text-centered">46.7</td>
-              <td class="has-text-centered">40.0</td>
-              <td class="has-text-centered">20.0</td>
-              <td class="has-text-centered">0.0</td>
-              <td class="has-text-centered">0.0</td>
-            </tr>
-            <tr>
-              <td class="has-text-centered">With Manipulation Concept</td>
-              <td class="has-text-centered"><strong>73.3</strong></td>
-              <td class="has-text-centered"><strong>60.0</strong></td>
-              <td class="has-text-centered"><strong>53.3</strong></td>
-              <td class="has-text-centered"><strong>33.3</strong></td>
-              <td class="has-text-centered"><strong>20.0</strong></td>
-              <td class="has-text-centered"><strong>13.3</strong></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
       <br>
       <div class="videos-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; width: 60%; margin: 0 auto;">
         <!-- Video 1 -->
@@ -621,6 +576,54 @@
             Baseline (without manipulation concepts)
           </h2>
         </div>
+      </div>
+
+      <h2 class="title is-4 has-text-centered">
+        Real-World Experiment Success Rates
+      </h2>
+      <div class="table-container" style="width: 60%; margin: 1.5rem auto 0 auto;">
+        <table class="table is-bordered is-striped" style="margin: 0 auto; table-layout: fixed; width: 100%;">
+          <colgroup>
+            <col style="width: 14.28%;">
+            <col style="width: 14.28%;">
+            <col style="width: 14.28%;">
+            <col style="width: 14.28%;">
+            <col style="width: 14.28%;">
+            <col style="width: 14.28%;">
+            <col style="width: 14.28%;">
+          </colgroup>
+          <thead>
+            <tr>
+              <th></th>
+              <th class="has-text-centered">Unsee Placements</th>
+              <th class="has-text-centered">Unseen Color Combination</th>
+              <th class="has-text-centered">Unseen Objects</th>
+              <th class="has-text-centered">Obstacle blocking the cup</th>
+              <th class="has-text-centered">Barrier blocking path</th>
+              <th class="has-text-centered">Dual cup grasping</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="has-text-centered">Without Manipulation Concept</td>
+              <td class="has-text-centered">53.3</td>
+              <td class="has-text-centered">46.7</td>
+              <td class="has-text-centered">40.0</td>
+              <td class="has-text-centered">20.0</td>
+              <td class="has-text-centered">0.0</td>
+              <td class="has-text-centered">0.0</td>
+            </tr>
+            <tr>
+              <td class="has-text-centered">With Manipulation Concept</td>
+              <td class="has-text-centered"><strong>73.3</strong></td>
+              <td class="has-text-centered"><strong>60.0</strong></td>
+              <td class="has-text-centered"><strong>53.3</strong></td>
+              <td class="has-text-centered"><strong>33.3</strong></td>
+              <td class="has-text-centered"><strong>20.0</strong></td>
+              <td class="has-text-centered"><strong>13.3</strong></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
     </div>
