@@ -177,6 +177,9 @@
     ]
   }
   </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -438,6 +441,20 @@
         with only these two color combinations,
         and then used to regularize ACT policy training on the same task.
       </h2>
+
+      <div style="overflow-x: auto;">
+        $$
+        \begin{array}{|c|c|c|}
+        \hline
+        \text{Method} & \text{Success Rate} & \text{Time (s)} \\
+        \hline
+        \text{Baseline} & 45.2\% & 12.3 \\
+        \text{Ours} & 87.6\% & 10.1 \\
+        \hline
+        \end{array}
+        $$
+      </div>
+
       <br>
       <div class="videos-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; width: 60%; margin: 0 auto;">
         <!-- Video 1 -->
