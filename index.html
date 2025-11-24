@@ -443,16 +443,17 @@
       </h2>
 
       <div style="overflow-x: auto;">
-        $$
-        \begin{array}{|c|c|c|}
-        \hline
-        \text{Method} & \text{Success Rate} & \text{Time (s)} \\
-        \hline
-        \text{Baseline} & 45.2\% & 12.3 \\
-        \text{Ours} & 87.6\% & 10.1 \\
-        \hline
-        \end{array}
-        $$
+        \begin{table}[!t]
+        \centering
+        \begin{tabular}{ccccccc}
+            \toprule
+             & Place & Color & Obj. & Obst. & Barr. & Multi \\
+            \midrule
+            w/o MC & 53.3 & 46.7 & 40.0 & 20.0 & 0.0 & 0.0 \\
+            w/ MC & \textbf{73.3} & \textbf{60.0} & \textbf{53.3} & \textbf{33.3} & \textbf{20.0} & \textbf{13.3} \\
+            \bottomrule
+        \end{tabular}
+        \end{table}
       </div>
 
       <br>
